@@ -44,7 +44,7 @@ function checkScore() {
 
         if (circleWins) {
             infoDisplay.textContent="circle wins !"
-            allSquares.forEach(squares => squares.replaceWith(square.cloneNode(true)))
+            allSquares.forEach(squares => squares.replaceWith(squares.cloneNode(true)))
             return
         }
     })
@@ -56,7 +56,7 @@ function checkScore() {
 
         if (crossWins) {
             infoDisplay.textContent="cross wins !"
-            allSquares.forEach(squares => squares.replaceWith(square.cloneNode(true)))
+            allSquares.forEach(squares => squares.replaceWith(squares.cloneNode(true)))
             return
         }
     })
